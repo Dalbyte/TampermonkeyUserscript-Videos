@@ -6,8 +6,8 @@
 // @author       Dein Name
 // @match        https://github.com/*/*/releases*
 // @grant        GM_addStyle
-// @updateURL   https://raw.githubusercontent.com/
-// @downloadURL https://raw.githubusercontent.com/
+// @updateURL   https://github.com/Dalbyte/TampermonkeyUserscript-Videos/raw/refs/heads/main/script/GitHub%20Release%20List%20Hover%20Effect-1.0.user.js
+// @downloadURL https://github.com/Dalbyte/TampermonkeyUserscript-Videos/raw/refs/heads/main/script/GitHub%20Release%20List%20Hover%20Effect-1.0.user.js
 // @supportURL  https://github.com/Dalbyte/TampermonkeyUserscript-Videos/issues
 // ==/UserScript==
 

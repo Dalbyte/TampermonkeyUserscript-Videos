@@ -3,11 +3,11 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Erweitert Pikimov um die Möglichkeit, Youtube Timestamps hinzuzufügen.
-// @author       Alexander Dalbert + Gemini (Google)
+// @author       Alexander Dalbert + Gemini AI (Google)
 // @match        https://pikimov.com/*
 // @grant        none
-// @updateURL   https://raw.githubusercontent.com/
-// @downloadURL https://raw.githubusercontent.com/
+// @updateURL   https://github.com/Dalbyte/TampermonkeyUserscript-Videos/raw/refs/heads/main/script/Pikimov%20Timestamps-0.1.user.js
+// @downloadURL https://github.com/Dalbyte/TampermonkeyUserscript-Videos/raw/refs/heads/main/script/Pikimov%20Timestamps-0.1.user.js
 // @supportURL  https://github.com/Dalbyte/TampermonkeyUserscript-Videos/issues
 // ==/UserScript==
 
