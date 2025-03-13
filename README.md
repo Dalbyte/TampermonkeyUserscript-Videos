@@ -1,2 +1,2 @@
-# -TampermonkeyUserscript-Videos
+#TampermonkeyUserscript-Videos
  TampermonkeyUserscripts for VideoDoku
