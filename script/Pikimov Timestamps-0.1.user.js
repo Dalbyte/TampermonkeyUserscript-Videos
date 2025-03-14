@@ -11,6 +11,19 @@
 // @supportURL  https://github.com/Dalbyte/TampermonkeyUserscript-Videos/issues
 // ==/UserScript==
 
+// ==UserScript==
+// @name         Pikimov Timestamps
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  Erweitert Pikimov um die Möglichkeit, Youtube Timestamps hinzuzufügen.
+// @author       Alexander Dalbert + Gemini AI (Google)
+// @match        https://pikimov.com/*
+// @grant        none
+// @updateURL    https://github.com/Dalbyte/TampermonkeyUserscript-Videos/raw/refs/heads/main/script/Pikimov%20Timestamps-0.1.user.js
+// @downloadURL  https://github.com/Dalbyte/TampermonkeyUserscript-Videos/raw/refs/heads/main/script/Pikimov%20Timestamps-0.1.user.js
+// @supportURL   https://github.com/Dalbyte/TampermonkeyUserscript-Videos/issues
+// ==/UserScript==
+
 (function() {
     'use strict';
 
@@ -60,6 +73,8 @@
                     // Timestamps-Container hinzufügen
                     let timestampsList = document.createElement("div");
                     timestampsList.id = "timestampsList";
+                    timestampsList.style.maxHeight = "50vh"; // Maximale Höhe festlegen
+                    timestampsList.style.overflowY = "auto"; // Vertikales Scrollen aktivieren
                     leftContainer.appendChild(timestampsList);
 
                     // Buttons hinzufügen
@@ -140,6 +155,11 @@
         // Event-Listener für Zeitänderung
         timestamp.querySelector(".ytt-timestamp-time").addEventListener("change", function() {
             sortTimestamps();
+        });
+
+        // Event-Listener für Titeländerung (Leerzeichen entfernen)
+        timestamp.querySelector(".ytt-timestamp-title").addEventListener("change", function() {
+            this.value = this.value.trimStart();
         });
 
         sortTimestamps();
