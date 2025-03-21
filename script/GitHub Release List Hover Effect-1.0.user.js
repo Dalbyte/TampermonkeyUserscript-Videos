@@ -16,14 +16,17 @@
 
     // Füge benutzerdefiniertes CSS für den Hover-Effekt hinzu
     GM_addStyle(`
+        ul li {
+            transition: all 0.6s 0.1s ease-in-out;
+        }
+
         ul li:hover {
-            font-size: 1.7em;
+            font-size: 1.2em;
             font-weight: bold;
-            background: linear-gradient(90deg, #3eb127, #add616);
+            background: linear-gradient(90deg, #3eb12755, #add61655);
             color: white;
             padding: 5px;
             border-radius: 10px;
-            transition: all 0.6s ease-in-out;
         }
     `);
 
