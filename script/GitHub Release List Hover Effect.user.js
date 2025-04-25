@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GitHub Release List Hover Effect
 // @namespace    http://tampermonkey.net/
-// @version      1.5
+// @version      1.6
 // @description  Vergrößert den Text von Release-Listenelementen bei Hover auf GitHub
 // @author       Alexander Dalbert
 // @match        https://github.com/*/*/releases*
@@ -17,6 +17,7 @@
     // Füge benutzerdefiniertes CSS für den Hover-Effekt hinzu
     GM_addStyle(`
         ul li {
+            font-size: 1.1em;
             transition: all 0.6s 0.1s ease-in-out;
         }
 
@@ -29,6 +30,11 @@
             border-color: #62D399;
             border-style: solid;
             border-width: 3px;
+        }
+
+        .px-lg-5 {
+            padding-left: 10rem !important;
+            padding-right: 10rem !important;
         }
     `);
 
