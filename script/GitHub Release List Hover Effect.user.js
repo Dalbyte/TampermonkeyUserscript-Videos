@@ -23,7 +23,7 @@
         ul li:hover {
             font-size: 1.2em;
             /*background: linear-gradient(90deg, #3eb12755, #add61655);*/
-            color: white;
+            /*color: white;*/
             padding: 15px;
             border-radius: 10px;
             border-color: #62D399;
