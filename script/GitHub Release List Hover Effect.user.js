@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         GitHub Release List Hover Effect
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Vergrößert den Text von Release-Listenelementen bei Hover auf GitHub
 // @author       Alexander Dalbert
 // @match        https://github.com/*/*/releases*
 // @grant        GM_addStyle
-// @updateURL   https://github.com/Dalbyte/TampermonkeyUserscript-Videos/raw/refs/heads/main/script/GitHub%20Release%20List%20Hover%20Effect-1.0.user.js
-// @downloadURL https://github.com/Dalbyte/TampermonkeyUserscript-Videos/raw/refs/heads/main/script/GitHub%20Release%20List%20Hover%20Effect-1.0.user.js
+// @updateURL   https://github.com/Dalbyte/TampermonkeyUserscript-Videos/raw/refs/heads/main/script/GitHub%20Release%20List%20Hover%20Effect.user.js
+// @downloadURL https://github.com/Dalbyte/TampermonkeyUserscript-Videos/raw/refs/heads/main/script/GitHub%20Release%20List%20Hover%20Effect.user.js
 // @supportURL  https://github.com/Dalbyte/TampermonkeyUserscript-Videos/issues
 // ==/UserScript==
 
@@ -22,8 +22,8 @@
 
         ul li:hover {
             font-size: 1.2em;
-            font-weight: bold;
             background: linear-gradient(90deg, #3eb12755, #add61655);
+            font-weight: bold;
             color: white;
             padding: 5px;
             border-radius: 10px;
