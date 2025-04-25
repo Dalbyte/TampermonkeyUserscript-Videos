@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pikimov Timestamps
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Erweitert Pikimov um die Möglichkeit, Youtube Timestamps hinzuzufügen.
 // @author       Alexander Dalbert + Gemini AI (Google)
 // @match        https://pikimov.com/*
@@ -20,7 +20,7 @@
     }
 
     function initializeScript() {
-        let toolDropdown = selectElement("#project > header > div:nth-child(4) > div");
+        let toolDropdown = selectElement("#project > header > div:nth-child(5) > div");
 
         if (toolDropdown) {
             let dropdownItem = document.createElement("span");
