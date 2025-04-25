@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GitHub Release List Hover Effect
 // @namespace    http://tampermonkey.net/
-// @version      1.4
+// @version      1.5
 // @description  Vergrößert den Text von Release-Listenelementen bei Hover auf GitHub
 // @author       Alexander Dalbert
 // @match        https://github.com/*/*/releases*
