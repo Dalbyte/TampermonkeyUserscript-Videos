@@ -1,26 +1,13 @@
 // ==UserScript==
 // @name         Pikimov Timestamps
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      1.0
 // @description  Erweitert Pikimov um die Möglichkeit, Youtube Timestamps hinzuzufügen.
 // @author       Alexander Dalbert + Gemini AI (Google)
 // @match        https://pikimov.com/*
 // @grant        none
-// @updateURL   https://github.com/Dalbyte/TampermonkeyUserscript-Videos/raw/refs/heads/main/script/Pikimov%20Timestamps-0.1.user.js
-// @downloadURL https://github.com/Dalbyte/TampermonkeyUserscript-Videos/raw/refs/heads/main/script/Pikimov%20Timestamps-0.1.user.js
-// @supportURL  https://github.com/Dalbyte/TampermonkeyUserscript-Videos/issues
-// ==/UserScript==
-
-// ==UserScript==
-// @name         Pikimov Timestamps
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  Erweitert Pikimov um die Möglichkeit, Youtube Timestamps hinzuzufügen.
-// @author       Alexander Dalbert + Gemini AI (Google)
-// @match        https://pikimov.com/*
-// @grant        none
-// @updateURL    https://github.com/Dalbyte/TampermonkeyUserscript-Videos/raw/refs/heads/main/script/Pikimov%20Timestamps-0.1.user.js
-// @downloadURL  https://github.com/Dalbyte/TampermonkeyUserscript-Videos/raw/refs/heads/main/script/Pikimov%20Timestamps-0.1.user.js
+// @updateURL    https://github.com/Dalbyte/TampermonkeyUserscript-Videos/raw/refs/heads/main/script/Pikimov%20Timestamps.user.js
+// @downloadURL  https://github.com/Dalbyte/TampermonkeyUserscript-Videos/raw/refs/heads/main/script/Pikimov%20Timestamps.user.js
 // @supportURL   https://github.com/Dalbyte/TampermonkeyUserscript-Videos/issues
 // ==/UserScript==
 
